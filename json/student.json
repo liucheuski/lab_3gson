@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Oleg",
+    "position": [
+      "Founder",
+      "SEO",
+      "coder"
+    ],
+    "skills": [
+      "java",
+      "python",
+      "node",
+      "kotlin"
+    ]
+  },
+  {
+    "name": "Pavel",
+    "position": [
+      "Founder",
+      "SEO",
+      "coder"
+    ],
+    "skills": [
+      "java",
+      "python",
+      "node",
+      "kotlin"
+    ]
+  }
+]
