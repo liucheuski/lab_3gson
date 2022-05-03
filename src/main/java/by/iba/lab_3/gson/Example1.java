@@ -15,7 +15,7 @@ public class Example1 {
         Gson gson = new GsonBuilder()
                 .setPrettyPrinting()
                 .excludeFieldsWithModifiers(Modifier.STATIC, Modifier.TRANSIENT)
-                //.excludeFieldsWithoutExposeAnnotation()
+                .excludeFieldsWithoutExposeAnnotation()
                 .setExclusionStrategies(
                         new CustomExclusionStrategy(CustomExclusionStrategy.class))
                 .create();
